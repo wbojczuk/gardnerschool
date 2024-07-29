@@ -1,0 +1,82 @@
+.opportunites{
+    position: relative;
+    padding: calc(var(--section-padding-top) * 1.8) 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw
+}
+
+.opportunites h3{
+    position: relative;
+    font-size: 4rem;
+}
+
+.opportunites h3::after{
+     content: '';
+     display: inline-block;
+     position: absolute;
+     top: -2vw;
+     left: calc(50% - 4vw);
+     width: 8vw;
+     height: 12px;
+     background-color: var(--primary-color-2);
+}
+
+.opportunites p{
+    font-size: 1.4rem;
+    width: 40%;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .opportunites{
+        gap: 3vw
+    }
+    
+    .opportunites h3{
+        font-size: 4rem;
+    }
+    
+    .opportunites h3::after{
+         top: -3vw;
+         left: calc(50% - 6vw);
+         width: 12vw;
+    }
+    
+    .opportunites p{
+        font-size: 1.6rem;
+        width: 55%;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .opportunites{
+        gap: 6vw
+    }
+    
+    .opportunites h3{
+        font-size: 3rem;
+    }
+    
+    .opportunites h3::after{
+         top: -6vw;
+         left: calc(50% - 10vw);
+         width: 20vw;
+    }
+    
+    .opportunites p{
+        font-size: 1.6rem;
+        width: 65%;
+    }
+}
