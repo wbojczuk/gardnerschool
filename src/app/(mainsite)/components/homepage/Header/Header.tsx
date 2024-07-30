@@ -8,7 +8,7 @@ export default function Header() {
     <header className={styles.header}>
 
         <div className={styles.content}>
-            <h1>The Gardener <br /> <span>Preparatory School</span></h1>
+            <h1>The Gardner <br /> <span>Preparatory School</span></h1>
         </div>
 
         <div className={styles.content}>
@@ -16,7 +16,7 @@ export default function Header() {
 
             <div className={styles.buttonWrapper}>
                 <Link className="main-link" href="/contact">Contact Us</Link>
-            </div>
+            </div> 
         </div>
 
         <div style={{backgroundColor: "rgba(0,0,0,.7)"}} className="shader"></div>
