@@ -13,6 +13,11 @@
   border: none;
 }
 
+.main-link-light{
+  background-color: var(--secondary-text-color);
+  color: var(--primary-color);
+}
+
 .main-link::after{
   content: '';
   display: inline-block;
@@ -35,7 +40,7 @@
 @media only screen and (min-width: 650px) and (max-width: 990px){
   .main-link{
     font-size: 1.6rem;
-    padding: 1vw 4vw;
+    padding: 1vw 5vw;
   }
   
 }

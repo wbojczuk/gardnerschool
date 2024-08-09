@@ -12,7 +12,7 @@ return (
 
     <Link href="/contact" className="main-link">Contact Us</Link>
  
-    <img style={{objectPosition: "top"}} src='/img/approach.png' alt='Image of Volunteers' className='bg-img' />
+    <img style={{objectPosition: "top"}} src='/img/approach.webp' alt='Image of Volunteers' className='bg-img' />
     <div className='gradient-shader'></div>
  </div>
 )};

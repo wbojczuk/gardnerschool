@@ -20,7 +20,7 @@ export default function Header() {
         </div>
 
         <div style={{backgroundColor: "rgba(0,0,0,.7)"}} className="shader"></div>
-        <img src="/img/header.png" alt="Image of Bible" className="bg-img" />
+        <img src="/img/header.webp" alt="Image of Kids" className="bg-img" />
     </header>
   )
 }

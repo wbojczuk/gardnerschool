@@ -271,7 +271,7 @@
     .logoImg{
         width: 12vw;
         height: 5vw;
-        transform: scale(1.5) translateY(-25%);
+        /* transform: scale(1.5) translateY(-25%); */
     }
     .content{
         padding-top: 1vw;
@@ -333,7 +333,7 @@
         height: 2.5vw;
     }
     .topBarLinks:nth-child(1){
-        display: none;
+        /* display: none; */
     }
     .topBarLinks a{
         font-size: 1.5rem;

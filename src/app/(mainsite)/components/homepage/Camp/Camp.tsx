@@ -12,7 +12,7 @@ return (
         
         <Link className='main-link' href={"/contact"}>Learn More</Link>
 
-        <img src="/img/camp.png" alt="image of children" className="bg-img" />
+        <img src="/img/camp.webp" alt="image of children" className="bg-img" />
         <div className="shader" style={{backgroundColor: "rgba(255,255,255,.9)"}}></div>
  </div>
 )};

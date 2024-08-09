@@ -12,6 +12,6 @@ return (
     </div>
 
     <div className="shader" style={{backgroundColor: "rgba(0,0,0,0.8)"}}></div>
-    <img src="/img/apply.png" alt="image of children with usa flag" className="bg-img" />
+    <img src="/img/apply.webp" alt="image of children with usa flag" className="bg-img" />
  </div>
 )};

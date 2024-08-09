@@ -1,10 +1,11 @@
-import ContactInfo from "@/app/(mainsite)/components/contactpage/ContactInfo/ContactInfo"
+import CurriculumContent from "@/app/(mainsite)/components/curriculumpage/CurriculumContent/CurriculumContent"
+import Camp from "@/app/(mainsite)/components/homepage/Camp/Camp"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `Contact | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `Contact | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Curriculum | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Curriculum | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -25,11 +26,12 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function ContactPage(){
+export default function CurriculumPage(){
 	 return(
 	 	 <>
-			<PageTitle pageTitle="Contact" />
-			<ContactInfo />
+			<PageTitle pageTitle="Curriculum" />
+			<CurriculumContent />
+			<Camp />
 	 	 </>
 	 )
 }

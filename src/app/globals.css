@@ -4,7 +4,7 @@
 }
 
 :root{
-  --primary-color: #006A35;
+  --primary-color: rgb(0, 106, 53);
   --primary-color-dark: #000B06;
   --secondary-color: #fff;
   --third-color: #F6F6F6;
@@ -140,7 +140,7 @@ body::-webkit-scrollbar-track {
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
   body{
-    padding-top: 8vw;
+    padding-top: 15vw;
   }
   :root{
     font-size: 12px;
@@ -156,7 +156,7 @@ body::-webkit-scrollbar-track {
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
   body{
-    padding-top: 15vw;
+    padding-top: 20vw;
   }
   :root{
     font-size: 10px;
