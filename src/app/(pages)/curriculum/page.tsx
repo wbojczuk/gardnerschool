@@ -1,4 +1,5 @@
 import CurriculumContent from "@/app/(mainsite)/components/curriculumpage/CurriculumContent/CurriculumContent"
+import STEAM from "@/app/(mainsite)/components/curriculumpage/STEAM/STEAM"
 import Camp from "@/app/(mainsite)/components/homepage/Camp/Camp"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
@@ -31,6 +32,7 @@ export default function CurriculumPage(){
 	 	 <>
 			<PageTitle pageTitle="Curriculum" />
 			<CurriculumContent />
+			<STEAM />
 			<Camp />
 	 	 </>
 	 )
