@@ -1,3 +1,4 @@
+import AfterSchool from "@/app/(mainsite)/components/curriculumpage/AfterSchool/AfterSchool"
 import CurriculumContent from "@/app/(mainsite)/components/curriculumpage/CurriculumContent/CurriculumContent"
 import STEAM from "@/app/(mainsite)/components/curriculumpage/STEAM/STEAM"
 import Camp from "@/app/(mainsite)/components/homepage/Camp/Camp"
@@ -33,6 +34,7 @@ export default function CurriculumPage(){
 			<PageTitle pageTitle="Curriculum" />
 			<CurriculumContent />
 			<STEAM />
+			<AfterSchool />
 			<Camp />
 	 	 </>
 	 )
